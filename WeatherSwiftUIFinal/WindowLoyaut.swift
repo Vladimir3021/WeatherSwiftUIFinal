@@ -3,7 +3,7 @@
 //  WeatherSwiftUIFinal
 //
 //  Created by admin on 22.01.2024.
-//
+//MARK: - Модель окон общая
 
 import SwiftUI
 
