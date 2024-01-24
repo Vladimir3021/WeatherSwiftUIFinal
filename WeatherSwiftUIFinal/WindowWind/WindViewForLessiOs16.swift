@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WindViewForiOs16: View {
+struct WindViewForLessiOs16: View {
    // @EnvironmentObject var winds: WeatherViewModel // получаем обьект данных из среды.
     let windsspeed = 27
     let windsgust = 22
@@ -44,5 +44,5 @@ struct WindViewForiOs16: View {
     }
 }
 #Preview {
-    WindViewForiOs16()
+    WindViewForLessiOs16()
 }

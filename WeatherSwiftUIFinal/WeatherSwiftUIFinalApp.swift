@@ -13,9 +13,9 @@ struct WeatherSwiftUIFinalApp: App {
         WindowGroup {
             //ContentView()
             if #available(iOS 16.0, *) {
-                WindowWindTest()
+                WindowWind()
             } else {
-                ContentView()
+                WindViewForLessiOs16()
             }
         }
     }
