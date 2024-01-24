@@ -55,9 +55,9 @@
 			children = (
 				042DCE102B5E6C1000E9D4E6 /* WeatherSwiftUIFinalApp.swift */,
 				042DCE122B5E6C1000E9D4E6 /* ContentView.swift */,
-				042DCE1E2B5E7AA500E9D4E6 /* WindowLayaut */,
 				042DCE142B5E6C1300E9D4E6 /* Assets.xcassets */,
 				042DCE162B5E6C1300E9D4E6 /* Preview Content */,
+				042DCE702B61016B00E9D4E6 /* Test */,
 			);
 			path = WeatherSwiftUIFinal;
 			sourceTree = "<group>";
@@ -76,6 +76,15 @@
 				042DCE202B5E7AEA00E9D4E6 /* WindowLoyaut.swift */,
 			);
 			name = WindowLayaut;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		042DCE702B61016B00E9D4E6 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				042DCE1E2B5E7AA500E9D4E6 /* WindowLayaut */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
