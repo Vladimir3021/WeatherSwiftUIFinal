@@ -27,6 +27,7 @@
 		042DCE732B6103D100E9D4E6 /* WindowWindTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWindTest.swift; sourceTree = "<group>"; };
 		04B568E12B6151EE00B3FD9A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		04B568E42B616F8800B3FD9A /* WindowWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWind.swift; sourceTree = "<group>"; };
+		04B568E82B617EB200B3FD9A /* WindowWindHelp.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = WindowWindHelp.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		04B568E32B616F1600B3FD9A /* WindowWind */ = {
 			isa = PBXGroup;
 			children = (
+				04B568E82B617EB200B3FD9A /* WindowWindHelp.rtfd */,
 				04B568E42B616F8800B3FD9A /* WindowWind.swift */,
 			);
 			path = WindowWind;
