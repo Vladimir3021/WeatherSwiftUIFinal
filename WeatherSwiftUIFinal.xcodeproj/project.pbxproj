@@ -11,7 +11,10 @@
 		042DCE132B5E6C1000E9D4E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DCE122B5E6C1000E9D4E6 /* ContentView.swift */; };
 		042DCE152B5E6C1300E9D4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042DCE142B5E6C1300E9D4E6 /* Assets.xcassets */; };
 		042DCE182B5E6C1300E9D4E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042DCE172B5E6C1300E9D4E6 /* Preview Assets.xcassets */; };
-		042DCE212B5E7AEA00E9D4E6 /* WindowLoyaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DCE202B5E7AEA00E9D4E6 /* WindowLoyaut.swift */; };
+		042DCE212B5E7AEA00E9D4E6 /* WindowLoyautWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DCE202B5E7AEA00E9D4E6 /* WindowLoyautWind.swift */; };
+		042DCE742B6103D100E9D4E6 /* WindowWindTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DCE732B6103D100E9D4E6 /* WindowWindTest.swift */; };
+		04B568E22B6151EE00B3FD9A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B568E12B6151EE00B3FD9A /* Test.swift */; };
+		04B568E52B616F8800B3FD9A /* WindowWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B568E42B616F8800B3FD9A /* WindowWind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +23,10 @@
 		042DCE122B5E6C1000E9D4E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		042DCE142B5E6C1300E9D4E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042DCE172B5E6C1300E9D4E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		042DCE202B5E7AEA00E9D4E6 /* WindowLoyaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowLoyaut.swift; sourceTree = "<group>"; };
+		042DCE202B5E7AEA00E9D4E6 /* WindowLoyautWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowLoyautWind.swift; sourceTree = "<group>"; };
+		042DCE732B6103D100E9D4E6 /* WindowWindTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWindTest.swift; sourceTree = "<group>"; };
+		04B568E12B6151EE00B3FD9A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		04B568E42B616F8800B3FD9A /* WindowWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 		042DCE0F2B5E6C1000E9D4E6 /* WeatherSwiftUIFinal */ = {
 			isa = PBXGroup;
 			children = (
+				04B568E32B616F1600B3FD9A /* WindowWind */,
 				042DCE102B5E6C1000E9D4E6 /* WeatherSwiftUIFinalApp.swift */,
 				042DCE122B5E6C1000E9D4E6 /* ContentView.swift */,
 				042DCE142B5E6C1300E9D4E6 /* Assets.xcassets */,
@@ -73,7 +80,9 @@
 		042DCE1E2B5E7AA500E9D4E6 /* WindowLayaut */ = {
 			isa = PBXGroup;
 			children = (
-				042DCE202B5E7AEA00E9D4E6 /* WindowLoyaut.swift */,
+				042DCE202B5E7AEA00E9D4E6 /* WindowLoyautWind.swift */,
+				042DCE732B6103D100E9D4E6 /* WindowWindTest.swift */,
+				04B568E12B6151EE00B3FD9A /* Test.swift */,
 			);
 			name = WindowLayaut;
 			path = ..;
@@ -85,6 +94,14 @@
 				042DCE1E2B5E7AA500E9D4E6 /* WindowLayaut */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		04B568E32B616F1600B3FD9A /* WindowWind */ = {
+			isa = PBXGroup;
+			children = (
+				04B568E42B616F8800B3FD9A /* WindowWind.swift */,
+			);
+			path = WindowWind;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042DCE212B5E7AEA00E9D4E6 /* WindowLoyaut.swift in Sources */,
+				042DCE212B5E7AEA00E9D4E6 /* WindowLoyautWind.swift in Sources */,
 				042DCE132B5E6C1000E9D4E6 /* ContentView.swift in Sources */,
+				04B568E22B6151EE00B3FD9A /* Test.swift in Sources */,
+				04B568E52B616F8800B3FD9A /* WindowWind.swift in Sources */,
+				042DCE742B6103D100E9D4E6 /* WindowWindTest.swift in Sources */,
 				042DCE112B5E6C1000E9D4E6 /* WeatherSwiftUIFinalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -301,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,7 +11,12 @@ import SwiftUI
 struct WeatherSwiftUIFinalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            if #available(iOS 16.0, *) {
+                WindowWindTest()
+            } else {
+                ContentView()
+            }
         }
     }
 }

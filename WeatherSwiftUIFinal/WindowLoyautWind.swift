@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WindowLayaut: View {
+struct WindowLayautWind: View {
     /// Description - Получаем ширину экрана и от нее строим ширину наших окон
     var widthUIScreen = UIScreen.main.bounds.width
     
@@ -67,7 +67,7 @@ struct WindowLayaut: View {
 }
 
 #Preview {
-    WindowLayaut(imageSystemNameAndName:  Image(systemName:"wind"),
+    WindowLayautWind(imageSystemNameAndName:  Image(systemName:"wind"),
                  name: "ВЕТЕР",
                  description: "Порыв ветра до -",
                  unitOfMeasureDescription: "м/с")
