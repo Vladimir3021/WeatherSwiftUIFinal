@@ -15,6 +15,7 @@
 		042DCE742B6103D100E9D4E6 /* WindowWindTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DCE732B6103D100E9D4E6 /* WindowWindTest.swift */; };
 		04B568E22B6151EE00B3FD9A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B568E12B6151EE00B3FD9A /* Test.swift */; };
 		04B568E52B616F8800B3FD9A /* WindowWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B568E42B616F8800B3FD9A /* WindowWind.swift */; };
+		04B568EC2B61858A00B3FD9A /* WindViewForiOs16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B568EB2B61858A00B3FD9A /* WindViewForiOs16.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		04B568E12B6151EE00B3FD9A /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		04B568E42B616F8800B3FD9A /* WindowWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWind.swift; sourceTree = "<group>"; };
 		04B568E82B617EB200B3FD9A /* WindowWindHelp.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = WindowWindHelp.rtfd; sourceTree = "<group>"; };
+		04B568EB2B61858A00B3FD9A /* WindViewForiOs16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindViewForiOs16.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				04B568E82B617EB200B3FD9A /* WindowWindHelp.rtfd */,
 				04B568E42B616F8800B3FD9A /* WindowWind.swift */,
+				04B568EB2B61858A00B3FD9A /* WindViewForiOs16.swift */,
 			);
 			path = WindowWind;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				042DCE212B5E7AEA00E9D4E6 /* WindowLoyautWind.swift in Sources */,
 				042DCE132B5E6C1000E9D4E6 /* ContentView.swift in Sources */,
+				04B568EC2B61858A00B3FD9A /* WindViewForiOs16.swift in Sources */,
 				04B568E22B6151EE00B3FD9A /* Test.swift in Sources */,
 				04B568E52B616F8800B3FD9A /* WindowWind.swift in Sources */,
 				042DCE742B6103D100E9D4E6 /* WindowWindTest.swift in Sources */,
