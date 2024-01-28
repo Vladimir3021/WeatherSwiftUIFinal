@@ -19,6 +19,7 @@
 		04B568E22B6151EE00B3FD9A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B568E12B6151EE00B3FD9A /* Test.swift */; };
 		04B568E52B616F8800B3FD9A /* WindowWind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B568E42B616F8800B3FD9A /* WindowWind.swift */; };
 		04B568EC2B61858A00B3FD9A /* WindViewForLessiOs16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B568EB2B61858A00B3FD9A /* WindViewForLessiOs16.swift */; };
+		04DB4CA02B66D637006C85BF /* WindowHourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB4C9F2B66D637006C85BF /* WindowHourlyForecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		04B568E42B616F8800B3FD9A /* WindowWind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWind.swift; sourceTree = "<group>"; };
 		04B568E82B617EB200B3FD9A /* WindowWindHelp.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = WindowWindHelp.rtfd; sourceTree = "<group>"; };
 		04B568EB2B61858A00B3FD9A /* WindViewForLessiOs16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindViewForLessiOs16.swift; sourceTree = "<group>"; };
+		04DB4C9F2B66D637006C85BF /* WindowHourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowHourlyForecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		042DCE0F2B5E6C1000E9D4E6 /* WeatherSwiftUIFinal */ = {
 			isa = PBXGroup;
 			children = (
+				04DB4C9E2B66D612006C85BF /* WindowHourlyForecast */,
 				04A62A572B61B55F007E52B8 /* WindowVisibility */,
 				04B568E32B616F1600B3FD9A /* WindowWind */,
 				042DCE102B5E6C1000E9D4E6 /* WeatherSwiftUIFinalApp.swift */,
@@ -124,6 +127,14 @@
 				04B568EB2B61858A00B3FD9A /* WindViewForLessiOs16.swift */,
 			);
 			path = WindowWind;
+			sourceTree = "<group>";
+		};
+		04DB4C9E2B66D612006C85BF /* WindowHourlyForecast */ = {
+			isa = PBXGroup;
+			children = (
+				04DB4C9F2B66D637006C85BF /* WindowHourlyForecast.swift */,
+			);
+			path = WindowHourlyForecast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 				04A62A5D2B61BA39007E52B8 /* VisibilityForLessiOs16.swift in Sources */,
 				042DCE132B5E6C1000E9D4E6 /* ContentView.swift in Sources */,
 				04B568EC2B61858A00B3FD9A /* WindViewForLessiOs16.swift in Sources */,
+				04DB4CA02B66D637006C85BF /* WindowHourlyForecast.swift in Sources */,
 				04B568E22B6151EE00B3FD9A /* Test.swift in Sources */,
 				04B568E52B616F8800B3FD9A /* WindowWind.swift in Sources */,
 				042DCE742B6103D100E9D4E6 /* WindowWindTest.swift in Sources */,

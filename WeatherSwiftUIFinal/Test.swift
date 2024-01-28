@@ -11,23 +11,26 @@ import SwiftUI
 struct Test: View {
     
     var body: some View {
-        let view = Rectangle().frame(width: 100, height: 100)
-        Text("Hello, world!")
-          .frame(width: 300, height: 100)
-          .onTapGesture {
-            print(type(of: self.body))
-              print(type(of: view))
-          }
-          ModifiedContent(content: Text("kkkkk"), modifier: CustomFont())
+        RoundedRectangle(cornerRadius: 8)
+            .frame(width: 200, height: 100)
+            .overlay(alignment: .topLeading) { Star(color: .red) }
+            .overlay(alignment: .topTrailing) { Star(color: .yellow) }
+            .overlay(alignment: .bottomLeading) { Star(color: .green) }
+            .overlay(alignment: .bottomTrailing) { Star(color: .blue) }
        
       
     }
 }
-struct CustomFont: ViewModifier {
-  func body(content: Content) -> some View {
-    content.font(.largeTitle)
-  }
+struct Star: View {
+    var color = Color.yellow
+
+
+    var body: some View {
+        Image(systemName: "star.fill")
+            .foregroundStyle(color)
+    }
 }
+
 
 #Preview {
   
