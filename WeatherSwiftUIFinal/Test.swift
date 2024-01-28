@@ -11,14 +11,19 @@ import SwiftUI
 struct Test: View {
     
     var body: some View {
-        RoundedRectangle(cornerRadius: 8)
-            .frame(width: 300, height: 500)
-            .overlay(alignment: .topLeading) { Text("yyyyyy").foregroundStyle(.green) }
-            .overlay(alignment: .topTrailing) { Star(color: .yellow) }
-            .overlay(alignment: .bottomLeading) { Star(color: .green) }
-            .overlay(alignment: .bottomTrailing) { Star(color: .blue) }
-       
-      
+        VStack(alignment: .center, spacing: nil, content: {
+            Text("сейчас").padding(.all, 20)
+            Spacer()
+            Text("\(Image(systemName: "cloud.snow.fill")) ")
+            Spacer()
+            Text("-5 \u{00B0}").padding(.bottom, 10).font(.title3)
+        })
+        .frame(minWidth: 50,  maxWidth: .infinity, minHeight: 200,  maxHeight: 200, alignment: .center)
+        .fixedSize()
+        .background(Color(#colorLiteral(red: 0.4620226622, green: 0.8382837176, blue: 1, alpha: 1)) )
+        .clipShape(RoundedRectangle(cornerRadius: 15), style: FillStyle())
+        .padding()
+ 
     }
 }
 struct Star: View {

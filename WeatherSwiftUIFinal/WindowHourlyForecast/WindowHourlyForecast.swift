@@ -22,9 +22,9 @@ struct WindowHourlyForecast: View {
                     .frame(height: 2)
                     .overlay(Color.gray)
                     .padding(EdgeInsets( top: 60, leading: 20, bottom: 0, trailing: 20))
-          
+                
             })
-           
+        
             .padding(18)
             .foregroundColor(Color(#colorLiteral(red: 0, green: 0.5898008943, blue: 1, alpha: 0.5990273179)))
     }
