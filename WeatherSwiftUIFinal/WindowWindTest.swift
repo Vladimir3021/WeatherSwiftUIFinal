@@ -24,11 +24,15 @@ struct WindowWindTest: View {
         HStack {
             // Прямоугольник с разными углами закругления
             UnevenRoundedRectangle(cornerRadii: radiiLeagingWindow, style: .circular)
-                .frame(minWidth: 160, idealWidth: 250, maxWidth: 360, minHeight: 200, maxHeight:200)
+                //.printSizeInfo()
+                //.fixedSize()
+                //.fixedSize(horizontal: true, vertical: false)
+                .frame(minWidth: 50, idealWidth: 200,maxWidth: 500,  minHeight: 200, maxHeight:200)
                 .foregroundColor( Color(#colorLiteral(red: 0.1199920788, green: 0.6115283127, blue: 1, alpha: 1)))
                 .opacity(0.5)
                 .padding()
-            
+                .border(Color.black)
+                
             Spacer()
             ZStack {
                 //                backgroundGradient
@@ -54,10 +58,13 @@ struct WindowWindTest: View {
                         .font(.subheadline)
                         .lineLimit(4)
                 }
-            }
-            .frame(minWidth: 160,  maxWidth: 360, minHeight: 200, maxHeight:200)
+            }//.printSizeInfo()
+            .frame(minWidth: 60,  maxWidth: 560,  maxHeight:200)
             .padding()
-        }
+        }.background(.green)
+            .onTapGesture {
+             print(type(of: self.body))
+             }
     }
 }
 

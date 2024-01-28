@@ -40,7 +40,9 @@ struct WindViewForLessiOs16: View {
             })
         }
         .cornerRadius(20)
-        .frame(width: widthUIScreen / 2.2, height: 155)
+       // .frame(width: widthUIScreen / 2.2, height: 155)
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 155, maxHeight: 155)
+        .padding()
     }
 }
 #Preview {

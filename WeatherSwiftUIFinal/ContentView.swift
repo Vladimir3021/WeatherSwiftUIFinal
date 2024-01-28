@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-//Тестовый коммит
+
+        HStack {
+            if #available(iOS 16.0, *) {
+                WindowVisibility()
+            } else {
+                VisibilityForLessiOs16()
+            }
+            if #available(iOS 16.0, *) {
+                WindowWind()
+            } else {
+                WindViewForLessiOs16()
+            }
         }
-        .padding()
+        
     }
 }
 

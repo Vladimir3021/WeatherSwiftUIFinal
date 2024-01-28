@@ -7,23 +7,44 @@
 
 import SwiftUI
 
-@available(iOS 16.0, *)
+//@available(iOS 16.0, *)
 struct Test: View {
-    // конст. содержащая углы прямоугольника с разными углами закругления для левого окна
-    let radiiLeagingWindow = RectangleCornerRadii(topLeading: 50, bottomLeading: 0, bottomTrailing: 20, topTrailing: 0)
+    
     var body: some View {
-        UnevenRoundedRectangle(cornerRadii: radiiLeagingWindow, style: .circular)
-            .frame(minWidth: 160, idealWidth: 250, maxWidth: 360, minHeight: 200, maxHeight:200)
-            .foregroundColor( Color(#colorLiteral(red: 0.1199920788, green: 0.6115283127, blue: 1, alpha: 1)))
-            .opacity(0.5)
-            .padding()
+        let view = Rectangle().frame(width: 100, height: 100)
+        Text("Hello, world!")
+          .frame(width: 300, height: 100)
+          .onTapGesture {
+            print(type(of: self.body))
+              print(type(of: view))
+          }
+          ModifiedContent(content: Text("kkkkk"), modifier: CustomFont())
+       
+      
     }
+}
+struct CustomFont: ViewModifier {
+  func body(content: Content) -> some View {
+    content.font(.largeTitle)
+  }
 }
 
 #Preview {
-    if #available(iOS 16.0, *) {
+  
         Test()
-    } else {
-       Text(verbatim: "ggggg")
-    }
+
+
+  
 }
+//extension View {
+//    func printSizeInfo(_ label: String = "") -> some View {
+//        background(
+//            GeometryReader { proxy in
+//                Color.clear
+//                    .task(id: proxy.size) {
+//                        print(label, proxy.size)
+//                    }
+//            }
+//        )
+//    }
+//}
