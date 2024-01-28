@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
+        ScrollView {
+            WindowHourlyForecast()
+     
         HStack {
             if #available(iOS 16.0, *) {
                 WindowVisibility()
@@ -22,7 +24,7 @@ struct ContentView: View {
                 WindViewForLessiOs16()
             }
         }
-        
+        }
     }
 }
 

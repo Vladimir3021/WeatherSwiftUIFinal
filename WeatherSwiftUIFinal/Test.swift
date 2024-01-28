@@ -12,8 +12,8 @@ struct Test: View {
     
     var body: some View {
         RoundedRectangle(cornerRadius: 8)
-            .frame(width: 200, height: 100)
-            .overlay(alignment: .topLeading) { Star(color: .red) }
+            .frame(width: 300, height: 500)
+            .overlay(alignment: .topLeading) { Text("yyyyyy").foregroundStyle(.green) }
             .overlay(alignment: .topTrailing) { Star(color: .yellow) }
             .overlay(alignment: .bottomLeading) { Star(color: .green) }
             .overlay(alignment: .bottomTrailing) { Star(color: .blue) }
@@ -26,7 +26,7 @@ struct Star: View {
 
 
     var body: some View {
-        Image(systemName: "star.fill")
+        Text("yyyyyy")
             .foregroundStyle(color)
     }
 }
