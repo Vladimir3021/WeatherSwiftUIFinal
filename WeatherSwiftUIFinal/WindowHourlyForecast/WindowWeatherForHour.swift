@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WindowWeatherForHours: View {
+struct WindowWeatherForHour: View {
     
 //    var time = "сейчас"
 //    var imageWeather = Image(systemName: "cloud.snow.fill")
@@ -37,5 +37,5 @@ struct WindowWeatherForHours: View {
 }
 
 #Preview {
-    WindowWeatherForHours(time: "сейчас", imageWeather: Image(systemName: "cloud.snow.fill"), temperature: -5)
+    WindowWeatherForHour(time: "сейчас", imageWeather: Image(systemName: "cloud.snow.fill"), temperature: -5)
 }
