@@ -16,19 +16,19 @@ struct ContentView: View {
             } else {
                 // Fallback on earlier versions
             }
-     
-        HStack {
-            if #available(iOS 16.0, *) {
-                WindowVisibility()
-            } else {
-                VisibilityForLessiOs16()
+            
+            HStack {
+                if #available(iOS 16.0, *) {
+                    WindowVisibility()
+                } else {
+                    VisibilityForLessiOs16()
+                }
+                if #available(iOS 16.0, *) {
+                    WindowWind()
+                } else {
+                    WindViewForLessiOs16()
+                }
             }
-            if #available(iOS 16.0, *) {
-                WindowWind()
-            } else {
-                WindViewForLessiOs16()
-            }
-        }
         }
     }
 }

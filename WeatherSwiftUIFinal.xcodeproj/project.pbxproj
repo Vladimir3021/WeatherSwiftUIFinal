@@ -22,6 +22,7 @@
 		04DB4CA02B66D637006C85BF /* WindowHourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB4C9F2B66D637006C85BF /* WindowHourlyForecast.swift */; };
 		04DB4CA22B6708C9006C85BF /* WindowWeatherForHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB4CA12B6708C9006C85BF /* WindowWeatherForHours.swift */; };
 		04DB4CA42B67B03E006C85BF /* ScrolingForHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB4CA32B67B03E006C85BF /* ScrolingForHour.swift */; };
+		04DB4CA62B67B56F006C85BF /* ModelForHourWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB4CA52B67B56F006C85BF /* ModelForHourWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		04DB4C9F2B66D637006C85BF /* WindowHourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowHourlyForecast.swift; sourceTree = "<group>"; };
 		04DB4CA12B6708C9006C85BF /* WindowWeatherForHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWeatherForHours.swift; sourceTree = "<group>"; };
 		04DB4CA32B67B03E006C85BF /* ScrolingForHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrolingForHour.swift; sourceTree = "<group>"; };
+		04DB4CA52B67B56F006C85BF /* ModelForHourWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForHourWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				04DB4C9F2B66D637006C85BF /* WindowHourlyForecast.swift */,
 				04DB4CA12B6708C9006C85BF /* WindowWeatherForHours.swift */,
 				04DB4CA32B67B03E006C85BF /* ScrolingForHour.swift */,
+				04DB4CA52B67B56F006C85BF /* ModelForHourWindow.swift */,
 			);
 			path = WindowHourlyForecast;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			files = (
 				042DCE212B5E7AEA00E9D4E6 /* WindowLoyautWind.swift in Sources */,
 				04A62A592B61B59B007E52B8 /* WindowVisibility.swift in Sources */,
+				04DB4CA62B67B56F006C85BF /* ModelForHourWindow.swift in Sources */,
 				04DB4CA42B67B03E006C85BF /* ScrolingForHour.swift in Sources */,
 				04A62A5D2B61BA39007E52B8 /* VisibilityForLessiOs16.swift in Sources */,
 				04DB4CA22B6708C9006C85BF /* WindowWeatherForHours.swift in Sources */,
