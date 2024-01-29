@@ -7,26 +7,33 @@
 
 import SwiftUI
 
+//@available(iOS 17.0, *)
 struct ContentView: View {
     var body: some View {
+        ScrollView {
 
-        HStack {
-            if #available(iOS 16.0, *) {
-                WindowVisibility()
-            } else {
-                VisibilityForLessiOs16()
-            }
-            if #available(iOS 16.0, *) {
-                WindowWind()
-            } else {
-                WindViewForLessiOs16()
+            WindowHourlyForecast()
+            HStack {
+                if #available(iOS 16.0, *) {
+                    WindowVisibility()
+                } else {
+                    VisibilityForLessiOs16()
+                }
+                if #available(iOS 16.0, *) {
+                    WindowWind()
+                } else {
+                    WindViewForLessiOs16()
+                }
             }
         }
-        
     }
 }
 
 #Preview {
-    ContentView()
+    if #available(iOS 17.0, *) {
+        ContentView()
+    } else {
+        Text("hh")
+    }
 }
 // тест коммит3
