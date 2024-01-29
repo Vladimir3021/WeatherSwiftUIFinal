@@ -11,12 +11,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView {
-            if #available(iOS 17.0, *) {
-                WindowHourlyForecast()
-            } else {
-                // Fallback on earlier versions
-            }
-            
+
+            WindowHourlyForecast()
             HStack {
                 if #available(iOS 16.0, *) {
                     WindowVisibility()

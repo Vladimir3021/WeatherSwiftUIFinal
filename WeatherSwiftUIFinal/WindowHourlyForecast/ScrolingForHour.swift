@@ -11,10 +11,12 @@ struct ScrolingForHour: View {
     var body: some View {
         ScrollView (.horizontal, showsIndicators: false){
             HStack {
-                ForEach(0 ..< 15) { item in
-                    WindowWeatherForHours()
+                ForEach(sectionData) { item in
+                    WindowWeatherForHours(time: item.time, imageWeather: item.image, temperature: item.temperature)
+                    //Text("\(item.id)")
                 }
             }
+            
         }//.padding(20)
     }
 }

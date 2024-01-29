@@ -9,9 +9,12 @@ import SwiftUI
 
 struct WindowWeatherForHours: View {
     
-    var time = "сейчас"
-    var imageWeather = Image(systemName: "cloud.snow.fill")
-    var temperature = -5
+//    var time = "сейчас"
+//    var imageWeather = Image(systemName: "cloud.snow.fill")
+//    var temperature = -5
+    var time: String
+    var imageWeather: Image
+    var temperature: Int
     
     var body: some View {
         VStack(alignment: .center, spacing: nil, content: {
@@ -34,5 +37,5 @@ struct WindowWeatherForHours: View {
 }
 
 #Preview {
-    WindowWeatherForHours()
+    WindowWeatherForHours(time: "сейчас", imageWeather: Image(systemName: "cloud.snow.fill"), temperature: -5)
 }

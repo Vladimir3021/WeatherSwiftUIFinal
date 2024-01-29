@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@available(iOS 17.0, *)
+//@available(iOS 17.0, *)
 struct WindowHourlyForecast: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25.0)
