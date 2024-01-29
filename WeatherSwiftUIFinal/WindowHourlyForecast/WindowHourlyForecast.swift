@@ -7,10 +7,11 @@
 
 import SwiftUI
 
+@available(iOS 17.0, *)
 struct WindowHourlyForecast: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25.0)
-            .frame(minWidth: 0,  maxWidth: .infinity, minHeight: 200,  maxHeight: 200, alignment: .center)
+            .frame(minWidth: 0,  maxWidth: .infinity, minHeight: 250,  maxHeight: 250, alignment: .center)
             .overlay(alignment: .topLeading, content: {
                 Text("Placeh older Pla ceholder Plac eh older Place holder Placeholder older Pla ceholder Plac eh older Place holder Placeholder")
                     .foregroundStyle(.black)
@@ -24,7 +25,11 @@ struct WindowHourlyForecast: View {
                     .padding(EdgeInsets( top: 60, leading: 20, bottom: 0, trailing: 20))
                 
             })
-        
+            .overlay(content: {
+                ScrolingForHour()
+                    .padding(EdgeInsets( top: 60, leading: 20, bottom: 0, trailing: 20))
+            })
+//            .padding(EdgeInsets( top: 160, leading: 20, bottom: 0, trailing: 20))
             .padding(18)
             .foregroundColor(Color(#colorLiteral(red: 0, green: 0.5898008943, blue: 1, alpha: 0.5990273179)))
     }
@@ -34,5 +39,9 @@ var loayt: some View {
     Text(verbatim: "Placeholder")
 }
 #Preview {
-    WindowHourlyForecast()
+    if #available(iOS 17.0, *) {
+        WindowHourlyForecast()
+    } else {
+        Text("gg")
+    }
 }

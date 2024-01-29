@@ -7,10 +7,15 @@
 
 import SwiftUI
 
+//@available(iOS 17.0, *)
 struct ContentView: View {
     var body: some View {
         ScrollView {
-            WindowHourlyForecast()
+            if #available(iOS 17.0, *) {
+                WindowHourlyForecast()
+            } else {
+                // Fallback on earlier versions
+            }
      
         HStack {
             if #available(iOS 16.0, *) {
@@ -29,5 +34,9 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    if #available(iOS 17.0, *) {
+        ContentView()
+    } else {
+        Text("hh")
+    }
 }
