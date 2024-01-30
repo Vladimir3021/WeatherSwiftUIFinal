@@ -46,9 +46,10 @@ struct WindowWind: View {
 }
 
 #Preview {
+    
     if #available(iOS 16.0, *) {
         WindowWind()
     } else {
-       Text("Placeholder")
-    }
+Text("ff")    }
+   
 }

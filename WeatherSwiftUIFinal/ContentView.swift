@@ -30,10 +30,8 @@ struct ContentView: View {
 }
 
 #Preview {
-    if #available(iOS 17.0, *) {
+  
         ContentView()
-    } else {
-        Text("hh")
-    }
+ 
 }
 // тест коммит3
