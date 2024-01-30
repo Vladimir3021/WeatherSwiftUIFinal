@@ -8,21 +8,21 @@
 import UIKit
 
 class NetworkManager {
-    let configuration = URLSessionConfiguration.default
-    
-    let url = URL(string: "https://bit.ly/2LMtByx")
-    
-    func fetchWeatherData() {
-        guard  let forecastUrl = URL(string: "https://applelives.com/wp-content/uploads/2016/03/iPhone-SE-11.jpeg") else {return}
-        let session = URLSession(configuration: .default)
-        let session2 = URLSession(configuration: configuration)
-        session.dataTask(with: forecastUrl)
-        session2.dataTask(with: forecastUrl)
-    }
-    
-    
-    
-    
-    
+
+        func fetchDataWeather ()  {
+            
+            guard let urlWeaterTotal = urlWeaterTotal else { return }
+                
+            let session = URLSession(configuration: .default)
+            session.dataTask(with: urlWeaterTotal, completionHandler: <#T##(Data?, URLResponse?, Error?) -> Void#>)
+
+        }
 
 }
+
+extension URL {
+    init(_ string: StaticString) {
+        self.init(string: "\(string)")!
+    }
+}
+

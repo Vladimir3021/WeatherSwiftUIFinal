@@ -31,7 +31,7 @@ struct ContentView: View {
 
 #Preview {
   
-        ContentView()
+    ContentView()
  
 }
 // тест коммит3
