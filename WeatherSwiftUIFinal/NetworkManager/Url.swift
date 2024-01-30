@@ -14,7 +14,6 @@ let urlWeaterTotal: URL? = {
     let scheme = "https://"
     let host = "api.openweathermap.org"
     let path = "/data/2.5/forecast?"
-    
     let kharkivLatitude = "lat=49.9808100" // широта
     let kharkivLongititude = "&lon=36.2527200&" // долгота
     let key = "appid=bd918ef11fcc70e0e731767cbf2b0370&" // ключ для сайта https://openweathermap.org/api
