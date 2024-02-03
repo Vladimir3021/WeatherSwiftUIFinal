@@ -9,6 +9,8 @@ import SwiftUI
 
 //@available(iOS 17.0, *)
 struct ContentView: View {
+    // "============ Запуск функции запроса данных о погоде =============="
+    let startNetwork: () =  NetworkManager().fetchDataWeather()
     var body: some View {
         ScrollView {
 

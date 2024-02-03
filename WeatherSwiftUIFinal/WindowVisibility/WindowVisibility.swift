@@ -46,11 +46,11 @@ struct WindowVisibility: View {
     }
 }
 
-#Preview {
- 
-    if #available(iOS 16.0, *) {
-        WindowVisibility()
-    } else {
-Text("dd")    }
-   
-}
+//#Preview {
+// 
+//    if #available(iOS 16.0, *) {
+//        WindowVisibility()
+//    } else {
+//Text("dd")    }
+//   
+//}

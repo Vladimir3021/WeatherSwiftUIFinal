@@ -21,6 +21,7 @@
 		04C5DEF42B683B9B00ACEA76 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5DEF32B683B9B00ACEA76 /* NetworkManager.swift */; };
 		04C5DEF62B693AAF00ACEA76 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5DEF52B693AAE00ACEA76 /* Url.swift */; };
 		04C5DEF82B699ABC00ACEA76 /* ModelWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5DEF72B699ABC00ACEA76 /* ModelWeather.swift */; };
+		04C5DEFA2B69A44000ACEA76 /* ImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5DEF92B69A44000ACEA76 /* ImageTest.swift */; };
 		04DB4CA02B66D637006C85BF /* WindowHourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB4C9F2B66D637006C85BF /* WindowHourlyForecast.swift */; };
 		04DB4CA22B6708C9006C85BF /* WindowWeatherForHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB4CA12B6708C9006C85BF /* WindowWeatherForHour.swift */; };
 		04DB4CA42B67B03E006C85BF /* ScrolingForHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB4CA32B67B03E006C85BF /* ScrolingForHour.swift */; };
@@ -44,6 +45,7 @@
 		04C5DEF32B683B9B00ACEA76 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		04C5DEF52B693AAE00ACEA76 /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
 		04C5DEF72B699ABC00ACEA76 /* ModelWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWeather.swift; sourceTree = "<group>"; };
+		04C5DEF92B69A44000ACEA76 /* ImageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTest.swift; sourceTree = "<group>"; };
 		04DB4C9F2B66D637006C85BF /* WindowHourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowHourlyForecast.swift; sourceTree = "<group>"; };
 		04DB4CA12B6708C9006C85BF /* WindowWeatherForHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowWeatherForHour.swift; sourceTree = "<group>"; };
 		04DB4CA32B67B03E006C85BF /* ScrolingForHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrolingForHour.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				042DCE1E2B5E7AA500E9D4E6 /* WindowLayaut */,
+				04C5DEF92B69A44000ACEA76 /* ImageTest.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				04DB4CA02B66D637006C85BF /* WindowHourlyForecast.swift in Sources */,
 				04B568E52B616F8800B3FD9A /* WindowWind.swift in Sources */,
 				04C5DEF82B699ABC00ACEA76 /* ModelWeather.swift in Sources */,
+				04C5DEFA2B69A44000ACEA76 /* ImageTest.swift in Sources */,
 				042DCE742B6103D100E9D4E6 /* WindowWindTest.swift in Sources */,
 				042DCE112B5E6C1000E9D4E6 /* WeatherSwiftUIFinalApp.swift in Sources */,
 			);
