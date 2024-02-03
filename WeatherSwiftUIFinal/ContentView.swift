@@ -4,7 +4,7 @@
 //
 //  Created by admin on 22.01.2024.
 //
-
+// тест коммит
 import SwiftUI
 
 //@available(iOS 17.0, *)
