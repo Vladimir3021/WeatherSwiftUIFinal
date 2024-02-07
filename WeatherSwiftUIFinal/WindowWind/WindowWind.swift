@@ -9,6 +9,7 @@ import SwiftUI
 
 @available(iOS 16.0, *)
 struct WindowWind: View {
+    @ObservedObject var wind: NetworkManager
     
     let placeholder = "Заполнит ель тек ста Заполни тель текста За полнитель тек ста"
     // конст. содержащая углы прямоугольника с разными углами закругления для правого окна
@@ -27,7 +28,9 @@ struct WindowWind: View {
                     .fontWeight(.black)
                 Spacer()
                 HStack(alignment: .center, spacing: 10) {
-                    Text("\(25)")
+                    Text("\(wind.weatherData1.list[0].wind.speed)")
+                   // Text("\(wind.weatherData1.message)")
+                    //Text("\(24)")
                         .font(.title3)
                         .fontWeight(.black)
                     Text(verbatim: "М/С")
@@ -44,12 +47,12 @@ struct WindowWind: View {
         .padding()
     }
 }
-
-#Preview {
-    
-    if #available(iOS 16.0, *) {
-        WindowWind()
-    } else {
-Text("ff")    }
-   
-}
+//
+//#Preview {
+//    
+//    if #available(iOS 16.0, *) {
+//        WindowWind(wind: <#NetworkManager#>)
+//    } else {
+//Text("ff")    }
+//   
+//}

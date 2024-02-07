@@ -82,12 +82,12 @@
 		042DCE0F2B5E6C1000E9D4E6 /* WeatherSwiftUIFinal */ = {
 			isa = PBXGroup;
 			children = (
+				042DCE102B5E6C1000E9D4E6 /* WeatherSwiftUIFinalApp.swift */,
+				042DCE122B5E6C1000E9D4E6 /* ContentView.swift */,
 				04C5DEF22B683B4E00ACEA76 /* NetworkManager */,
 				04DB4C9E2B66D612006C85BF /* WindowHourlyForecast */,
 				04A62A572B61B55F007E52B8 /* WindowVisibility */,
 				04B568E32B616F1600B3FD9A /* WindowWind */,
-				042DCE102B5E6C1000E9D4E6 /* WeatherSwiftUIFinalApp.swift */,
-				042DCE122B5E6C1000E9D4E6 /* ContentView.swift */,
 				042DCE142B5E6C1300E9D4E6 /* Assets.xcassets */,
 				042DCE162B5E6C1300E9D4E6 /* Preview Content */,
 				042DCE702B61016B00E9D4E6 /* Test */,
