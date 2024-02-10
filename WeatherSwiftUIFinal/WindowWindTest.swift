@@ -68,10 +68,11 @@ struct WindowWindTest: View {
     }
 }
 
-#Preview {
-    if #available(iOS 16.0, *) {
-        WindowWindTest()
-    } else {
-        Text(verbatim: "Ppppppppp").font(.title3)
-    }
-}
+//#Preview {
+//
+//    if #available(iOS 16.0, *) {
+//        WindowWindTest()
+//    } else {
+//Text("dd")    }
+//   
+//}

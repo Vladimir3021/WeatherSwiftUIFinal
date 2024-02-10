@@ -9,6 +9,9 @@ import SwiftUI
 
 //@available(iOS 17.0, *)
 struct ContentView: View {
+    @StateObject var fetch = NetworkManager()
+    // "============ Запуск функции запроса данных о погоде =============="
+   // let startNetwork: () =  NetworkManager().fetchDataWeather()
     var body: some View {
         ScrollView {
 
@@ -20,7 +23,7 @@ struct ContentView: View {
                     VisibilityForLessiOs16()
                 }
                 if #available(iOS 16.0, *) {
-                    WindowWind()
+                    WindowWind(wind: fetch)
                 } else {
                     WindViewForLessiOs16()
                 }
@@ -30,10 +33,8 @@ struct ContentView: View {
 }
 
 #Preview {
-    if #available(iOS 17.0, *) {
-        ContentView()
-    } else {
-        Text("hh")
-    }
+  
+    ContentView()
+ 
 }
 // тест коммит3

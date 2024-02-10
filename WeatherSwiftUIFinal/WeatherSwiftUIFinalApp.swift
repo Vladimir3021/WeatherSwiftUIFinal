@@ -13,6 +13,9 @@ struct WeatherSwiftUIFinalApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//                .onAppear(perform: {
+//                NetworkManager().fetchDataWeather()
+//            })
                 //.frame(width: 350, height: 550)
                // .background(.brown)
            

@@ -39,9 +39,7 @@ var loayt: some View {
     Text(verbatim: "Placeholder")
 }
 #Preview {
-    if #available(iOS 17.0, *) {
+   
         WindowHourlyForecast()
-    } else {
-        Text("gg")
-    }
+   
 }
