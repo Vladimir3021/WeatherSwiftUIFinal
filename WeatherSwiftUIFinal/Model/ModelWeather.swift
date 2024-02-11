@@ -1,5 +1,7 @@
 import Foundation
 
+// MARK: Model  даннывх о погоде на несколько дней с интервалом через 3 часа сайт OpenWeather.
+
 // MARK: - ModelWeather
 struct ModelWeather: Codable {
     let cod: String

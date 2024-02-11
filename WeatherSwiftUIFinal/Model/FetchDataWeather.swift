@@ -7,6 +7,7 @@
 
 import Foundation
 
+///- Description - Передача данных в приложение из функции `featchDataWeather` через клоужер, вписаный в функцию в качестве замыкающего выражения.
 func fetchDataWeather(complition: @escaping (ModelWeather) -> ()) {
    guard let url = url else { return }
 

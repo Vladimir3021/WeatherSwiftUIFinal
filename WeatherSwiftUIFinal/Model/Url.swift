@@ -9,6 +9,8 @@ import Foundation
 
 /// `Создание Url двумя разными способами.`
 /// `Вариант - 1`
+///
+/// - Description - Создание Url методом сложения частей.
 let urlWeaterTotal: URL? = {
     
     let scheme = "https://"
@@ -32,6 +34,7 @@ let urlWeaterTotal: URL? = {
 }()
 // https://api.openweathermap.org/data/2.5/forecast?lat=49.9808100&lon=36.2527200&appid=bd918ef11fcc70e0e731767cbf2b0370&units=metric
 /// `Вариант - 2`
+/// - Description -  Создание url через  `URLComponents` 
 var url =   {
     
       var components = URLComponents()
